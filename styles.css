@@ -248,3 +248,13 @@ table {
 .files_table {
     display: grid;
 }
+
+.content {
+    box-shadow: 5px 10px 5px 10px gray;
+}
+
+#student_grade {
+    border: 2px solid black;
+    border-radius: 15px 25px;
+    font-size: 15px;
+}

@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="right-side">
-                <a href="Notes.php">Login</a>
+                <a href="Notes.php">Logged</a>
             </div>
         </div>
     </div>
