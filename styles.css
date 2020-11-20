@@ -4,9 +4,10 @@
     padding-bottom: 0px;
 }
 
-.Logo-Moto > div{
+.Logo-Moto>div {
     padding: 10px;
 }
+
 .Moto {
     font-size: 15px;
     font-style: italic;
@@ -23,33 +24,35 @@
     text-align: center;
 }
 
-.body{
+.body {
     margin: 3px;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns: 1fr;
 }
-.nav-wrapper{
+
+.nav-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 0px;
     position: sticky;
     background-color: pink;
     background-size: auto;
-    
 }
 
 .left-side {
     display: flex;
 }
 
-.nav-wrapper > .left-side > div {
+.nav-wrapper>.left-side>div {
     text-transform: uppercase;
     margin-right: 20px;
     font-size: 80%;
 }
-.nav-link-wrapper{
+
+.nav-link-wrapper {
     height: 22px;
     border-bottom: 2px solid transparent;
     border-top: 2px solid transparent;
@@ -58,9 +61,9 @@
 }
 
 .nav-link-wrapper a {
-   color: gray;
-   text-decoration: none;
-   transition: color 0.5s;
+    color: gray;
+    text-decoration: none;
+    transition: color 0.5s;
 }
 
 .nav-link-wrapper:hover {
@@ -68,11 +71,11 @@
     border-top: 1px solide gray;
 }
 
-.nav-link-wrapper a:hover{
+.nav-link-wrapper a:hover {
     color: black;
 }
 
-.active-nav-link{
+.active-nav-link {
     border-bottom: 2px solid black;
 }
 
@@ -80,18 +83,19 @@
     color: black !important;
 }
 
-.right-side a{
+.right-side a {
     padding-right: 10px;
     text-decoration: none;
-    color : brown;
+    color: brown;
     transition: color 0.5s;
     text-transform: uppercase;
     text-decoration: none;
-    
 }
 
+
 /*Login-page*/
-.Form{
+
+.Form {
     position: relative;
     z-index: 1;
     background: white;
@@ -110,24 +114,26 @@
     border-color: rgb(6, 71, 63);
     padding: 5px;
     box-sizing: border-box;
-
 }
-.Form  #button {
+
+.Form #button {
     text-transform: uppercase;
-   /* background: royalblue;*/
+    /* background: royalblue;*/
     width: 50%;
     padding: 2px;
     color: black;
     cursor: pointer;
 }
-.nav-link-wrapper li{
-   list-style: none;
+
+.nav-link-wrapper li {
+    list-style: none;
 }
-*{
+
+* {
     padding: 0px;
 }
 
-.Form select{
+.Form select {
     outline: auto;
     background: pink;
     width: 100%;
@@ -138,21 +144,21 @@
     box-sizing: border-box;
 }
 
+
 /*series pages*/
+
 .items-container {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    
 }
 
 .item-container {
     position: relative;
 }
 
-
-.items-container >div:hover {
+.items-container>div:hover {
     opacity: 0.98;
     transform: scale(0.98);
     transition: 0.58;
@@ -160,8 +166,7 @@
 
 .backgroung-image:hover {
     transition: 1s;
-
- }
+}
 
 .backgroung-image {
     height: 350px;
@@ -170,8 +175,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 
 .text-logo {
     position: absolute;
@@ -186,11 +189,11 @@
     padding-right: 100px;
 }
 
-.logo img{
+.logo img {
     width: 250%;
     margin-bottom: 20px;
-
 }
+
 .text-logo .text {
     transition: 1s;
     font-weight: 600;
@@ -202,34 +205,43 @@
     color: brown;
 }
 
-
 .dark {
     transition: 1s;
     filter: brightness(10%);
 }
 
+
 /*medioa queries*/
 
 @media (max-width:600px) {
- .backgroung-image{
-     height: 170px;
-     width: 105%;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
- }
- 
-.items-container {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    grid-gap: 10px;
- }
+    .backgroung-image {
+        height: 170px;
+        width: 105%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .items-container {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+    }
 }
-
-
 
 
 /*login pages*/
 
-  
+
+/*Table*/
+
+table {
+    margin: 50px;
+    border-collapse: collapse;
+    color: blue;
+    width: 50%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 10px;
+    position: center;
+}

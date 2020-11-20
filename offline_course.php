@@ -1,4 +1,4 @@
-<?php include('filesphp'); ?>
+<?php include('files.php'); ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -36,26 +36,26 @@
     </div>
     <div class="content">
 
-        <table>
+        <table cellpadding = "5" cellspacing = "5" border="1">
             <tr>
                 <th>Names</th>
                 <th>Files</th>
             </tr>
-        </table>
+
         <?php  
-    $cmd = "SELECT files_names, files from files";
-    $result = mysqli_query($conn,$cmd);
-    if($result->num_rows > 0){
-    while($row = $result-> fetch_assoc()){
-       
-        echo"<tr><td>".$row['files_names']."</td><td>".$row['files']."</td></tr>";
-        
-     }
-   }
+         $cmd = "SELECT files_names, files from files";
+         $result = mysqli_query($conn,$cmd);
+        if ($result->num_rows > 0) {
+           while ($row = $result-> fetch_assoc()) {
+            echo"<tr><td>". $row['files_names']."</td><td>". $row['files']."</td></tr>";
+        }
+         echo "</table>";
+        }
    ?>
+        </table>
     </div>
+
 </body>
 
 </html>
-
 </html>
