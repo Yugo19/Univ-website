@@ -25,7 +25,7 @@
                 <div class="nav-link-wrapper ">
                     <a href="Lesson.html">Lesson</a>
                 </div>
-                <div class="nav-link-wrapper active-nav-link">
+                <div class="nav-link-wrapper ">
                     <a href="about.html">A propos</a>
                 </div>
             </div>
@@ -35,8 +35,8 @@
         </div>
     </div>
     <div class="content">
-
-        <table cellpadding = "5" cellspacing = "5" border="1">
+      <div class="files_table" >
+        <table align  ="center" cellpadding = "5" cellspacing = "5" border="1">
             <tr>
                 <th>Names</th>
                 <th>Files</th>
@@ -53,6 +53,7 @@
         }
    ?>
         </table>
+    </div>
     </div>
 
 </body>

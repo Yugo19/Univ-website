@@ -236,12 +236,15 @@
 /*Table*/
 
 table {
-    margin: 50px;
     border-collapse: collapse;
     color: blue;
     width: 50%;
     text-align: center;
     font-family: monospace;
     font-size: 10px;
-    position: center;
+    margin-top: 30px;
+}
+
+.files_table {
+    display: grid;
 }
