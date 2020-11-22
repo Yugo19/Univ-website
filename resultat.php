@@ -1,4 +1,5 @@
 <?php include("Notes_data.php")?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -28,16 +29,16 @@
                      <a href="about.html">A propos</a>
                        </div>
                          </div>
-                    <div class="right-side">
-                     <a href="Notes.php">Logged</a>
+                    <div class="right-side active-nav-link">
+                     <a href="Notes.php"><?php echo $_SESSION['Email']  ?></a>
                          </div>
             </div>
            </div>
            <div class="content" >
               <div class="student_name">
                  <?php 
-                 
-                 $query = "SELECT student_first_name, student_last_name FROM Notes";
+                 $email = $_SESSION['Email'];
+                 $query = "SELECT student_first_name, student_last_name FROM notes WHERE Email = '$email'";
 
                  $result = mysqli_query($con,$query);
                   if($result->num_rows > 0){
@@ -55,8 +56,8 @@
                   <th>Physique</th>
                   <th>Anglais</th>
               <?php 
-                 
-                 $query = "SELECT Mathematiques, Physique, Anglais FROM Notes";
+                 $email = $_SESSION['Email'];
+                 $query = "SELECT Mathematiques, Physique, Anglais FROM Notes WHERE Email = '$email'";
 
                  $result = mysqli_query($con,$query);
                   if($result->num_rows > 0){

@@ -1,4 +1,5 @@
 <?php include('files.php'); ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -29,8 +30,8 @@
                     <a href="about.html">A propos</a>
                 </div>
             </div>
-            <div class="right-side">
-                <a href="Notes.php">Logged</a>
+            <div class="right-side active_nav_link" >
+                <a href="Notes.php"><?php echo $_SESSION['Email']; ?></a>
             </div>
         </div>
     </div>
