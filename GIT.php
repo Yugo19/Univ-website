@@ -35,9 +35,14 @@
                     <a href="about.html">A propos</a>
                 </div>
             </div>
+            <?php   
+            
+            if(isset($_SESSION['Email'])) : ?>
+
             <div class="right-side active-nav-link">
-                <a href="">Logged</a>
+                <a href=""><?php echo $_GET['user_id']; ?></a>
             </div>
+            <?php endif ?>
         </div>
     </div>
     <div class="content">
@@ -76,7 +81,7 @@
                 </div>
                 <div class="item-container">
 
-                    <a href="">
+                    <a href="resultat.php">
                         <div class="backgroung-image" style="background-image: url(Notes.jpg)">
 
                             <div class="text-logo">

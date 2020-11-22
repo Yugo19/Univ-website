@@ -238,11 +238,12 @@
 table {
     border-collapse: collapse;
     color: blue;
-    width: 50%;
+    width: 100%;
     text-align: center;
     font-family: monospace;
     font-size: 10px;
     margin-top: 30px;
+    border-bottom: collapse;
 }
 
 .files_table {
@@ -257,4 +258,14 @@ table {
     border: 2px solid black;
     border-radius: 15px 25px;
     font-size: 15px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: pink;
 }

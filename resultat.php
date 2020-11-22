@@ -50,7 +50,7 @@
                  ?>
               </div>
               <div  class="student_grade">
-                <table id ="student_grade" border = "1" align ="center">
+                <table id ="student_grade align ="center">
                   <th>Mathematique</th>
                   <th>Physique</th>
                   <th>Anglais</th>
