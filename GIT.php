@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,15 +35,15 @@
                 <div class="nav-link-wrapper ">
                     <a href="about.html">A propos</a>
                 </div>
-            </div>
-            <?php   
-            
-            if(isset($_SESSION['Email'])) : ?>
+            </div>  
 
             <div class="right-side active-nav-link">
-                <a href=""><?php echo $_GET['user_id']; ?></a>
+                <a href=""><?php echo $_SESSION['Email']; ?></a>
+                <ul>
+                <li>Loggout</li>
+                </ul>
             </div>
-            <?php endif ?>
+
         </div>
     </div>
     <div class="content">
