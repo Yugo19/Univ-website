@@ -1,269 +1,332 @@
-    .Logo-Moto {
-        padding-bottom: 0%;
-        text-align: center;
-        padding-bottom: 0px;
-    }
-    
-    .Logo-Moto>div {
-        padding: 10px;
-    }
-    
-    .Moto {
-        font-size: 15px;
-        font-style: italic;
-        font-style: oblique;
-        font-family: fantasy;
-        margin-top: -20px;
-    }
-    
-    .Name {
-        text-transform: uppercase;
-        color: red;
-        font-size: larger;
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .body {
-        margin: 3px;
-    }
-    
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    
-    .nav-wrapper {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px;
-        position: sticky;
-        background-color: pink;
-        background-size: auto;
-    }
-    
-    .left-side {
-        display: flex;
-    }
-    
-    .nav-wrapper>.left-side>div {
-        text-transform: uppercase;
-        margin-right: 20px;
-        font-size: 80%;
-    }
-    
-    .nav-link-wrapper {
-        height: 22px;
-        border-bottom: 2px solid transparent;
-        border-top: 2px solid transparent;
-        transition: border-bottom 0.5s;
-        transition: border-top 0.5s;
-    }
-    
-    .nav-link-wrapper a {
-        color: gray;
-        text-decoration: none;
-        transition: color 0.5s;
-    }
-    
-    .nav-link-wrapper:hover {
-        border-bottom: 2px solid black;
-        border-top: 1px solide gray;
-    }
-    
-    .nav-link-wrapper a:hover {
-        color: black;
-    }
-    
-    .active-nav-link {
-        border-bottom: 2px solid black;
-    }
-    
-    .active-nav-link a {
-        color: black !important;
-    }
-    
-    .right-side a {
-        padding-right: 10px;
-        text-decoration: none;
-        color: brown;
-        transition: color 0.5s;
-        /* text-transform: uppercase;*/
-        text-decoration: none;
-    }
-    
-    .right-side ul {
-        display: none;
-    }
-    
-    .right-side a :hover {
-        display: block;
-    }
-    /*Login-page*/
-    
-    .Form {
-        position: relative;
-        z-index: 1;
-        background: white;
-        max-width: 360px;
-        margin: 0 auto 100px;
-        padding: 45px;
-        text-align: center;
-    }
-    
-    .Form #same {
-        outline: auto;
-        background: pink;
-        width: 100%;
-        border: 0;
-        margin: 0 0 15px;
-        border-color: rgb(6, 71, 63);
-        padding: 5px;
-        box-sizing: border-box;
-    }
-    
-    .Form #button {
-        text-transform: uppercase;
-        /* background: royalblue;*/
-        width: 50%;
-        padding: 2px;
-        color: black;
-        cursor: pointer;
-    }
-    
-    .nav-link-wrapper li {
-        list-style: none;
-    }
-    
-    * {
-        padding: 0px;
-    }
-    
-    .Form select {
-        outline: auto;
-        background: pink;
-        width: 100%;
-        border: 0;
-        margin: 0 0 15px;
-        border-color: rgb(6, 71, 63);
-        padding: 5px;
-        box-sizing: border-box;
-    }
-    /*series pages*/
-    
-    .items-container {
-        margin-top: 10px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-    }
-    
-    .item-container {
-        position: relative;
-    }
-    
-    .items-container>div:hover {
-        opacity: 0.98;
-        transform: scale(0.98);
-        transition: 0.58;
-    }
-    
-    .backgroung-image:hover {
-        transition: 1s;
-    }
-    
+.Logo-Moto {
+    padding-bottom: 0%;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.Logo-Moto>div {
+    padding: 10px;
+}
+
+.Moto {
+    font-size: 15px;
+    font-style: italic;
+    font-style: oblique;
+    font-family: fantasy;
+    margin-top: -20px;
+}
+
+.Name {
+    text-transform: uppercase;
+    color: red;
+    font-size: larger;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body {
+    margin: 3px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    position: sticky;
+    background-color: pink;
+    background-size: auto;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper>.left-side>div {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size: 80%;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    transition: border-top 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid black;
+    border-top: 1px solide gray;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 2px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+.right-side a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: brown;
+    transition: color 0.5s;
+    /* text-transform: uppercase;*/
+    text-decoration: none;
+}
+
+.right-side ul {
+    display: none;
+}
+
+.right-side a :hover {
+    display: block;
+}
+
+
+/*Login-page*/
+
+.Form {
+    position: relative;
+    z-index: 1;
+    background: white;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.Form #same {
+    outline: auto;
+    background: pink;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    border-color: rgb(6, 71, 63);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Form #button {
+    text-transform: uppercase;
+    /* background: royalblue;*/
+    width: 50%;
+    padding: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link-wrapper li {
+    list-style: none;
+}
+
+* {
+    padding: 0px;
+}
+
+.Form select {
+    outline: auto;
+    background: pink;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    border-color: rgb(6, 71, 63);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+/*series pages*/
+
+.items-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.item-container {
+    position: relative;
+}
+
+.items-container>div:hover {
+    opacity: 0.98;
+    transform: scale(0.98);
+    transition: 0.58;
+}
+
+.backgroung-image:hover {
+    transition: 1s;
+}
+
+.backgroung-image {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s-content {
+    position: relative;
+}
+
+.info-cours {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-logo {
+    position: absolute;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo img {
+    width: 250%;
+    margin-bottom: 20px;
+}
+
+.text-logo .text {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.text-logo:hover .text {
+    font-weight: 600;
+    color: brown;
+}
+
+.dark {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+
+/*medioa queries*/
+
+@media (max-width:600px) {
     .backgroung-image {
-        height: 350px;
-        width: 100%;
+        height: 170px;
+        width: 105%;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
-    
-    .text-logo {
-        position: absolute;
+    .items-container {
+        margin-top: 10px;
         display: flex;
-        top: 0;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        text-align: center;
-        padding-left: 100px;
-        padding-right: 100px;
+        grid-gap: 10px;
     }
-    
-    .logo img {
-        width: 250%;
-        margin-bottom: 20px;
-    }
-    
-    .text-logo .text {
-        transition: 1s;
-        font-weight: 600;
-        color: transparent;
-    }
-    
-    .text-logo:hover .text {
-        font-weight: 600;
-        color: brown;
-    }
-    
-    .dark {
-        transition: 1s;
-        filter: brightness(10%);
-    }
-    /*medioa queries*/
-    
-    @media (max-width:600px) {
-        .backgroung-image {
-            height: 170px;
-            width: 105%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        .items-container {
-            margin-top: 10px;
-            display: flex;
-            flex-direction: column;
-            grid-gap: 10px;
-        }
-    }
-    /*login pages*/
-    /*Table*/
-    
-    table {
-        border-collapse: collapse;
-        color: blue;
-        width: 100%;
-        text-align: center;
-        font-family: monospace;
-        font-size: 10px;
-        margin-top: 30px;
-        border-bottom: collapse;
-    }
-    
-    .files_table {
-        display: grid;
-    }
-    
-    .content {
-        box-shadow: 5px 10px 5px 10px gray;
-    }
-    
-    #student_grade {
-        border: 2px solid black;
-        border-radius: 15px 25px;
-        font-size: 15px;
-    }
-    
-    th,
-    td {
-        text-align: center;
-        padding: 8px;
-    }
-    
-    tr:nth-child(even) {
-        background-color: pink;
-    }
+}
+
+
+/*login pages*/
+
+
+/*Table*/
+
+table {
+    border-collapse: collapse;
+    color: blue;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 10px;
+    margin-top: 30px;
+    border-bottom: collapse;
+}
+
+.files_table {
+    display: grid;
+}
+
+.content {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 20px;
+}
+
+#student_grade {
+    border: 2px solid black;
+    border-radius: 15px 25px;
+    font-size: 15px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: pink;
+}
+
+.content>div {
+    padding: 10px;
+}
+
+.content>div:nth-child(odd) {
+    background: pink;
+}
+
+.Lesson {
+    display: grid;
+    grid-auto-rows: minmax(100%, auto);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1em;
+    grid-column-gap: 10px;
+}
+
+.Lesson>div {
+    padding: 1em;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    background-color: pink;
+}
