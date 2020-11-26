@@ -54,56 +54,75 @@
               <div class="Lesson-container">
                 <div class="Lesson-data">Mathémaques</div>
                 <div class="math-homework">
-                  <ul>
-                    <li>Analyse</li>
-                  </ul>
+                  <h1>Statistique</h1>
                   <div class="file_upload">
-                    <form action="Test.php" method="Post"></form>
+                    <form action="Test.php" method="post" enctype="multipart/form-data">
                     <input type="file" name="file">
                     <input type="submit" name="submit">
+                    </form>
                   </div>
                 </div>
                 </div>
              <div class="Lesson-container">
-                <div class="Lesson-data">Mathémaques</div>
+                <div class="Lesson-data">Dessin</div>
                 <div class="math-homework">
-                  <ul>
-                    <li>Analyse</li>
-                  </ul>
+                  <h1>Perspective</h1>
+                   <div class="file_upload">
+                    <form action="Test.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                    <input type="submit" name="submit">
+                    </form>
+                  </div>
                 </div>
                 </div>
 
              <div class="Lesson-container">
-                <div class="Lesson-data">Mathémaques</div>
+                <div class="Lesson-data">Algorithme</div>
                 <div class="math-homework">
-                  <ul>
-                    <li>Analyse</li>
-                  </ul>
+                  <h1>Tableau</h1>
+                   <div class="file_upload">
+                    <form action="Test.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                    <input type="submit" name="submit">
+                    </form>
+                  </div>
                 </div>
                 </div>
                 <div class="Lesson-container">
-                <div class="Lesson-data">Mathémaques</div>
+                <div class="Lesson-data">Physiques</div>
                 <div class="math-homework">
-                  <ul>
-                    <li>Analyse</li>
-                  </ul>
+                  <h1>Electronique</h1>
+                   <div class="file_upload">
+                    <form action="Test.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                    <input type="submit" name="submit">
+                    </form>
+                  </div>
                 </div>
                 </div>
              <div class="Lesson-container">
-                <div class="Lesson-data">Mathémaques</div>
+                <div class="Lesson-data">TCE</div>
                 <div class="math-homework">
-                  <ul>
-                    <li>Analyse</li>
-                  </ul>
+                  <h1>Accord</h1>
+                   <div class="file_upload">
+                    <form action="Test.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                    <input type="submit" name="submit">
+                    </form>
+                  </div>
                 </div>
                 </div>
 
              <div class="Lesson-container">
-                <div class="Lesson-data">Mathémaques</div>
+                <div class="Lesson-data">Anglais</div>
                 <div class="math-homework">
-                  <ul>
-                    <li>Analyse</li>
-                  </ul>
+                  <h1>Ted</h1>
+                   <div class="file_upload">
+                    <form action="Test.php" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file">
+                    <input type="submit" name="submit">
+                    </form>
+                  </div>
                 </div>
                 </div>
                 </div>
