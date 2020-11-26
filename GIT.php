@@ -66,6 +66,7 @@
                     </a>
                 </div>
                 <div class="item-container">
+                    <a href="online-classes.php">
                     <div class="backgroung-image" style="background-image: url(online-education.JPEG)">
 
                         <div class="text-logo">
@@ -78,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-
+                     </a>
                 </div>
                 <div class="item-container">
 
@@ -95,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-
+</a>
                 </div>
 
             </div>
