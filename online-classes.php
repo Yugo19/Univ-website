@@ -51,9 +51,62 @@
               </div>
               </div>
               <div class="Lesson">
-                <div class="math">Mathémaques</div>
-                <div class="physique">Physique</div>
-                <div class="anglais">Anglais</div>
-           </div>
+              <div class="Lesson-container">
+                <div class="Lesson-data">Mathémaques</div>
+                <div class="math-homework">
+                  <ul>
+                    <li>Analyse</li>
+                  </ul>
+                  <div class="file_upload">
+                    <form action="Test.php" method="Post"></form>
+                    <input type="file" name="file">
+                    <input type="submit" name="submit">
+                  </div>
+                </div>
+                </div>
+             <div class="Lesson-container">
+                <div class="Lesson-data">Mathémaques</div>
+                <div class="math-homework">
+                  <ul>
+                    <li>Analyse</li>
+                  </ul>
+                </div>
+                </div>
+
+             <div class="Lesson-container">
+                <div class="Lesson-data">Mathémaques</div>
+                <div class="math-homework">
+                  <ul>
+                    <li>Analyse</li>
+                  </ul>
+                </div>
+                </div>
+                <div class="Lesson-container">
+                <div class="Lesson-data">Mathémaques</div>
+                <div class="math-homework">
+                  <ul>
+                    <li>Analyse</li>
+                  </ul>
+                </div>
+                </div>
+             <div class="Lesson-container">
+                <div class="Lesson-data">Mathémaques</div>
+                <div class="math-homework">
+                  <ul>
+                    <li>Analyse</li>
+                  </ul>
+                </div>
+                </div>
+
+             <div class="Lesson-container">
+                <div class="Lesson-data">Mathémaques</div>
+                <div class="math-homework">
+                  <ul>
+                    <li>Analyse</li>
+                  </ul>
+                </div>
+                </div>
+                </div>
+    
     </body>
 </html>
