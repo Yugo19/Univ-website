@@ -34,7 +34,7 @@
                          </div>
             </div>
            </div>
-           <div class="content" >
+           <div class="note-content" >
               <div class="student_name">
                  <?php 
                  $email = $_SESSION['Email'];
@@ -51,7 +51,7 @@
                  ?>
               </div>
               <div  class="student_grade">
-                <table id ="student_grade align ="center">
+                <table id ="student_grade" align ="center">
                   <th>Mathematique</th>
                   <th>Physique</th>
                   <th>Anglais</th>

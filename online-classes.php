@@ -34,7 +34,7 @@
                          </div>
             </div>
            </div>
-           <div class="content" >
+           <div class="online-content" >
               <div class="student_name">
                  <?php 
                  $email = $_SESSION['Email'];

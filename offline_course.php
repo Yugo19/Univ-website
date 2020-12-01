@@ -30,12 +30,12 @@
                     <a href="about.html">A propos</a>
                 </div>
             </div>
-            <div class="right-side active_nav_link" >
+            <div class="right-side active-nav-link">
                 <a href="Notes.php"><?php echo $_SESSION['Email']; ?></a>
             </div>
         </div>
     </div>
-    <div class="content">
+    <div class="offline-content">
       <div class="files_table" >
         <table align  ="center" cellpadding = "5" cellspacing = "5" border="1">
             <tr>
@@ -44,14 +44,16 @@
             </tr>
 
         <?php  
-         $cmd = "SELECT files_names, files from files";
-         $result = mysqli_query($conn,$cmd);
-        if ($result->num_rows > 0) {
-           while ($row = $result-> fetch_assoc()) {
-            echo"<tr><td>". $row['files_names']."</td><td>". $row['files']."</td></tr>";
-        }
+            $files = scandir('files',1);
+            $directory = '/files';
+
+                foreach ($files as $file) {
+                    if($file!='.' && $file!=".."){
+                    echo"<tr><td>". $file."</td><td>". '<a href= " '.$directory. '/'.$file.'">'.$file.'</a>'."</td></tr>";
+                    }
+                }
          echo "</table>";
-        }
+        
    ?>
         </table>
     </div>

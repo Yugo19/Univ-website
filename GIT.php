@@ -46,7 +46,7 @@
 
         </div>
     </div>
-    <div class="content">
+    <div class="git-content">
         <div class="main-container" id="fr">
             <div class="items-container">
                 <div class="item-container">
