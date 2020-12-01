@@ -45,7 +45,7 @@
 
         <?php  
             $files = scandir('files',1);
-            $directory = '/files';
+            $directory = 'files/';
 
                 foreach ($files as $file) {
                     if($file!='.' && $file!=".."){
