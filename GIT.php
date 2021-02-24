@@ -38,7 +38,7 @@
             </div>  
 
             <div class="right-side active-nav-link">
-                <a href=""><?php echo $_SESSION['Email']; ?></a>
+                <a href=""><?php echo $_SESSION["Email"]; ?></a>
                 <ul>
                 <li>Loggout</li>
                 </ul>
