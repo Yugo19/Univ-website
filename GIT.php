@@ -13,17 +13,17 @@
     <div class="Logo-Moto">
         <div class="Logo">
             <div class="Main-Logo">
-                <img src="UPMSC.png" height="125px" width="100px">
+                <img src="ITMA.jpg" height="125px" width="100px">
             </div>
             <div class="Second-Logo">
                 <!--  <img src="Logo.JPG" ></div>-->
             </div>
         </div>
         <div class="Name">
-            Université privée Mary Saint Claire
+        Institut Africain de Technologies et de Management
         </div>
         <div class="Moto">
-            La formation d'aujourdhui la reussite de demain
+        L'avenir c'est maintenant !
         </div>
     </div>
     <div class="Container">

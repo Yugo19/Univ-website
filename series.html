@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Study-Website</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">    
-        <link rel="stylesheet" href="styles.css"> 
-        <link href="https://cdn.databases.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="//cdn.databases.net/1.10.12/js/jquery.dataTables.min.js"></script>
-    </head>
-    <body>
-        <div class="Logo-Moto">
-            <div class="Logo">
-              <div class="Main-Logo"> 
-                  <img src="UPMSC.png" height="125px" width="100px">
-              </div>
-              <div class="Second-Logo">
-               <!--  <img src="Logo.JPG" ></div>-->
-              </div> 
-          </div>
-          <div class="Name">
-              Université privée Mary Saint Claire
-          </div>
-          <div class="Moto">
-              La formation d'aujourdhui la reussite de demain
-          </div>
-      </div>
-        <div class="Container">
-            <div class="nav-wrapper">
-                <div class="left-side">
-                    <div class="nav-link-wrapper ">
-                     <a href="main-page.html">Accueil</a>
-                    </div>
-                    <div class="nav-link-wrapper ">
-                     <a href="about.html">A propos</a>
-                       </div>
-                         </div>
-                    <div class="right-side">
-                     <a href="Notes.html">Login</a>
-                         </div>
-            </div>
-           </div>
-           <div class="content" >
-                 <table id="Notes" class="display" cellspacing="5">
-                     <thead>
-                    <tr>
-                     <th>Name</th>
-                     <th>Series</th>
-                     <th>Mathematics</th>
-                     <th>Algorithm</th>
-                     <th>Physics</th>
-                     </tr>
-                     </thead>
-                    </table>
-           </div>
-           <div class="upc">
-            
-               <a href=""></a>
-           </div>
-           <script type="text/javascript">
-           $(document).ready(function(){
-               $("#Notes").DataTable({
-                   "ajax":{
-                       "ajax":{
-                           "url":"Notes_data.php",
-                           "dataSrc" : ""
 
-                       },
-                       "columns" : [
-                           {"data":"Nom"},
-                           {"data":"Series"},
-                           {"data":"Mathemtics"},
-                           {"data":"Algorithm"},
-                           {"data":"Physics"},
-                       ]
-                   }
-               })
-           })
-        </script>
-    </body>
+<head>
+    <title>Study-Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.databases.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdn.databases.net/1.10.12/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+    <div class="Logo-Moto">
+        <div class="Logo">
+            <div class="Main-Logo">
+                <img src="UPMSC.png" height="125px" width="100px">
+            </div>
+            <div class="Second-Logo">
+                <!--  <img src="Logo.JPG" ></div>-->
+            </div>
+        </div>
+        <div class="Name">
+
+        </div>
+        <div class="Moto">
+            La formation d'aujourdhui la reussite de demain
+        </div>
+    </div>
+    <div class="Container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper ">
+                    <a href="main-page.html">Accueil</a>
+                </div>
+                <div class="nav-link-wrapper ">
+                    <a href="about.html">A propos</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <a href="Notes.html">Login</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <table id="Notes" class="display" cellspacing="5">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Series</th>
+                    <th>Mathematics</th>
+                    <th>Algorithm</th>
+                    <th>Physics</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="upc">
+
+        <a href=""></a>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#Notes").DataTable({
+                "ajax": {
+                    "ajax": {
+                        "url": "Notes_data.php",
+                        "dataSrc": ""
+
+                    },
+                    "columns": [{
+                        "data": "Nom"
+                    }, {
+                        "data": "Series"
+                    }, {
+                        "data": "Mathemtics"
+                    }, {
+                        "data": "Algorithm"
+                    }, {
+                        "data": "Physics"
+                    }, ]
+                }
+            })
+        })
+    </script>
+</body>
+
 </html>

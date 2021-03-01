@@ -12,7 +12,7 @@
         <div class="Logo-Moto">
    
           <div class="Name">
-              Université privée Mary Saint Claire
+          Institut Africain de Technologies et de Management
           </div>
       
       </div>
