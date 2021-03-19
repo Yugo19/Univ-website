@@ -1,351 +1,362 @@
-                            .Logo-Moto {
-                                padding-bottom: 0%;
-                                text-align: center;
-                                padding-bottom: 0px;
-                            }
-                            
-                            .Logo-Moto>div {
-                                padding: 10px;
-                            }
-                            
-                            .Moto {
-                                font-size: 15px;
-                                font-style: italic;
-                                font-style: oblique;
-                                font-family: fantasy;
-                                margin-top: -20px;
-                            }
-                            
-                            .Name {
-                                text-transform: uppercase;
-                                color: black;
-                                font-size: larger;
-                                font-size: 30px;
-                                text-align: center;
-                            }
-                            
-                            .body {
-                                margin: 3px;
-                            }
-                            
-                            .container {
-                                display: grid;
-                                grid-template-columns: 1fr;
-                                position: sticky;
-                            }
-                            
-                            .nav-wrapper {
-                                display: flex;
-                                justify-content: space-between;
-                                padding: 0px;
-                                position: sticky;
-                                background-color: pink;
-                                background-size: auto;
-                            }
-                            
-                            .left-side {
-                                display: flex;
-                            }
-                            
-                            .nav-wrapper>.left-side>div {
-                                text-transform: uppercase;
-                                margin-right: 20px;
-                                font-size: 80%;
-                            }
-                            
-                            .nav-link-wrapper {
-                                height: 22px;
-                                border-bottom: 2px solid transparent;
-                                border-top: 2px solid transparent;
-                                transition: border-bottom 0.5s;
-                                transition: border-top 0.5s;
-                            }
-                            
-                            .nav-link-wrapper a {
-                                color: gray;
-                                text-decoration: none;
-                                transition: color 0.5s;
-                            }
-                            
-                            .nav-link-wrapper:hover {
-                                border-bottom: 2px solid black;
-                                border-top: 1px solide gray;
-                            }
-                            
-                            .nav-link-wrapper a:hover {
-                                color: black;
-                            }
-                            
-                            .active-nav-link {
-                                border-bottom: 2px solid black;
-                            }
-                            
-                            .active-nav-link a {
-                                color: black !important;
-                            }
-                            
-                            .right-side a {
-                                padding-right: 10px;
-                                text-decoration: none;
-                                color: brown;
-                                transition: color 0.5s;
-                                /* text-transform: uppercase;*/
-                                text-decoration: none;
-                            }
-                            
-                            .right-side ul {
-                                display: none;
-                            }
-                            
-                            .right-side a :hover {
-                                display: block;
-                            }
-                            /*Login-page*/
-                            
-                            .Form {
-                                position: relative;
-                                z-index: 1;
-                                background: white;
-                                max-width: 360px;
-                                margin: 0 auto 100px;
-                                padding: 45px;
-                                text-align: center;
-                            }
-                            
-                            .Form #same {
-                                outline: auto;
-                                background: pink;
-                                width: 100%;
-                                border: 0;
-                                margin: 0 0 15px;
-                                border-color: rgb(6, 71, 63);
-                                padding: 5px;
-                                box-sizing: border-box;
-                            }
-                            
-                            .Form #button {
-                                text-transform: uppercase;
-                                /* background: royalblue;*/
-                                width: 50%;
-                                padding: 2px;
-                                color: black;
-                                cursor: pointer;
-                            }
-                            
-                            .nav-link-wrapper li {
-                                list-style: none;
-                            }
-                            
-                            * {
-                                padding: 0px;
-                            }
-                            
-                            .Form select {
-                                outline: auto;
-                                background: pink;
-                                width: 100%;
-                                border: 0;
-                                margin: 0 0 15px;
-                                border-color: rgb(6, 71, 63);
-                                padding: 5px;
-                                box-sizing: border-box;
-                            }
-                            /*series pages*/
-                            
-                            .items-container {
-                                margin-top: 10px;
-                                display: grid;
-                                grid-template-columns: repeat(3, 1fr);
-                                grid-gap: 10px;
-                            }
-                            
-                            .item-container {
-                                position: relative;
-                            }
-                            
-                            .items-container>div:hover {
-                                opacity: 0.98;
-                                transform: scale(0.98);
-                                transition: 0.58;
-                            }
-                            
-                            .backgroung-image:hover {
-                                transition: 1s;
-                            }
-                            
-                            .backgroung-image {
-                                height: 350px;
-                                width: 100%;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                                background-position: center;
-                            }
-                            
-                            .s-content {
-                                position: relative;
-                            }
-                            
-                            .info-cours {
-                                height: 350px;
-                                width: 100%;
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                                background-position: center;
-                            }
-                            
-                            .text {
-                                position: absolute;
-                                justify-content: center;
-                                text-align: center;
-                                display: flex;
-                                color: black;
-                                flex-direction: column;
-                                align-items: center;
-                            }
-                            
-                            .text-logo {
-                                position: absolute;
-                                display: flex;
-                                top: 0;
-                                flex-direction: column;
-                                justify-content: center;
-                                align-items: center;
-                                height: 100%;
-                                text-align: center;
-                                padding-left: 100px;
-                                padding-right: 100px;
-                            }
-                            
-                            .logo img {
-                                width: 250%;
-                                margin-bottom: 20px;
-                            }
-                            
-                            .text-logo .text {
-                                transition: 1s;
-                                font-weight: 600;
-                                color: transparent;
-                            }
-                            
-                            .text-logo:hover .text {
-                                font-weight: 600;
-                                color: brown;
-                            }
-                            
-                            .dark {
-                                transition: 1s;
-                                filter: brightness(10%);
-                            }
-                            /*medioa queries*/
-                            
-                            @media (max-width:600px) {
-                                .backgroung-image {
-                                    height: 170px;
-                                    width: 105%;
-                                    background-size: cover;
-                                    background-repeat: no-repeat;
-                                    background-position: center;
-                                }
-                                .items-container {
-                                    margin-top: 10px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    grid-gap: 10px;
-                                }
-                            }
-                            /*login pages*/
-                            /*Table*/
-                            
-                            table {
-                                border-collapse: collapse;
-                                color: blue;
-                                width: 100%;
-                                text-align: center;
-                                font-family: monospace;
-                                font-size: 10px;
-                                margin-top: 30px;
-                                border-bottom: collapse;
-                                border-radius: 5px;
-                            }
-                            
-                            .files_table {
-                                display: contents;
-                            }
-                            
-                            .content {
-                                display: grid;
-                                margin-top: 20px;
-                                grid-template-columns: 30% 70%;
-                                grid-column-gap: 10px;
-                                grid-auto-rows: minmax(100px, auto);
-                                margin-left: 20px;
-                                background-size: auto;
-                                box-shadow: 5px 5px gray;
-                                background-image: url(classroom.jpg);
-                            }
-                            
-                            #student_grade {
-                                border: 2px solid black;
-                                border-radius: 15px 25px;
-                                font-size: 15px;
-                            }
-                            
-                            th,
-                            td {
-                                text-align: center;
-                                padding: 8px;
-                            }
-                            
-                            tr:nth-child(even) {
-                                background-color: pink;
-                            }
-                            
-                            .content>div {
-                                padding: 10px;
-                            }
-                            
-                            .content>div:nth-child(odd) {
-                                background: pink;
-                            }
-                            
-                            .Lesson {
-                                display: grid;
-                                grid-template-columns: repeat(3, 1fr);
-                                grid-column-gap: 10px;
-                                justify-items: center;
-                                grid-row-gap: 30px;
-                            }
-                            
-                            .Lesson-container {
-                                display: grid;
-                                grid-auto-rows: minmax(100px, auto);
-                                grid-template-rows: 30% 70%;
-                                border: 1px black solid;
-                                border-radius: 5px;
-                            }
-                            
-                            .Lesson-container>div:nth-child(even) {
-                                background-color: pink;
-                                border: 1px solid black;
-                            }
-                            
-                            .content_choix {
-                                position: relative;
-                                background-image: url(student-space.png);
-                                justify-items: center;
-                            }
-                            
-                            .Form #box1 {
-                                justify-content: center;
-                            }
-                            
-                            .classroom {
-                                background-image: url(Teachers.jpg);
-                                display: grid;
-                                grid-template-columns: minmax(100px, auto);
-                                column-gap: 10px;
-                                position: absolute;
-                                left: 50%;
-                                top: 50%;
-                                transform: translateX(-50px) translateY(-50px)
-                            }
+                                        .Logo-Moto {
+                                            padding-bottom: 0%;
+                                            text-align: center;
+                                            padding-bottom: 0px;
+                                        }
+                                        
+                                        .Logo-Moto>div {
+                                            padding: 10px;
+                                        }
+                                        
+                                        .Moto {
+                                            font-size: 15px;
+                                            font-style: italic;
+                                            font-style: oblique;
+                                            font-family: fantasy;
+                                            margin-top: -20px;
+                                        }
+                                        
+                                        .Name {
+                                            text-transform: uppercase;
+                                            color: black;
+                                            font-size: larger;
+                                            font-size: 30px;
+                                            text-align: center;
+                                        }
+                                        
+                                        .body {
+                                            margin: 3px;
+                                        }
+                                        
+                                        .container {
+                                            display: grid;
+                                            grid-template-columns: 1fr;
+                                            position: sticky;
+                                        }
+                                        
+                                        .nav-wrapper {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            padding: 0px;
+                                            position: sticky;
+                                            background-color: pink;
+                                            background-size: auto;
+                                        }
+                                        
+                                        .left-side {
+                                            display: flex;
+                                        }
+                                        
+                                        .nav-wrapper>.left-side>div {
+                                            text-transform: uppercase;
+                                            margin-right: 20px;
+                                            font-size: 80%;
+                                        }
+                                        
+                                        .nav-link-wrapper {
+                                            height: 22px;
+                                            border-bottom: 2px solid transparent;
+                                            border-top: 2px solid transparent;
+                                            transition: border-bottom 0.5s;
+                                            transition: border-top 0.5s;
+                                        }
+                                        
+                                        .nav-link-wrapper a {
+                                            color: gray;
+                                            text-decoration: none;
+                                            transition: color 0.5s;
+                                        }
+                                        
+                                        .nav-link-wrapper:hover {
+                                            border-bottom: 2px solid black;
+                                            border-top: 1px solide gray;
+                                        }
+                                        
+                                        .nav-link-wrapper a:hover {
+                                            color: black;
+                                        }
+                                        
+                                        .active-nav-link {
+                                            border-bottom: 2px solid black;
+                                        }
+                                        
+                                        .active-nav-link a {
+                                            color: black !important;
+                                        }
+                                        
+                                        .right-side a {
+                                            padding-right: 10px;
+                                            text-decoration: none;
+                                            color: brown;
+                                            transition: color 0.5s;
+                                            /* text-transform: uppercase;*/
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .right-side ul {
+                                            display: none;
+                                        }
+                                        
+                                        .right-side a :hover {
+                                            display: block;
+                                        }
+                                        /*Login-page*/
+                                        
+                                        .Form {
+                                            position: relative;
+                                            z-index: 1;
+                                            background: white;
+                                            max-width: 360px;
+                                            margin: 0 auto 100px;
+                                            padding: 45px;
+                                            text-align: center;
+                                        }
+                                        
+                                        .Form #same {
+                                            outline: auto;
+                                            background: pink;
+                                            width: 100%;
+                                            border: 0;
+                                            margin: 0 0 15px;
+                                            border-color: rgb(6, 71, 63);
+                                            padding: 5px;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .Form #button {
+                                            text-transform: uppercase;
+                                            /* background: royalblue;*/
+                                            width: 50%;
+                                            padding: 2px;
+                                            color: black;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .nav-link-wrapper li {
+                                            list-style: none;
+                                        }
+                                        
+                                        * {
+                                            padding: 0px;
+                                        }
+                                        
+                                        .Form select {
+                                            outline: auto;
+                                            background: pink;
+                                            width: 100%;
+                                            border: 0;
+                                            margin: 0 0 15px;
+                                            border-color: rgb(6, 71, 63);
+                                            padding: 5px;
+                                            box-sizing: border-box;
+                                        }
+                                        /*series pages*/
+                                        
+                                        .items-container {
+                                            margin-top: 10px;
+                                            display: grid;
+                                            grid-template-columns: repeat(3, 1fr);
+                                            grid-gap: 10px;
+                                        }
+                                        
+                                        .item-container {
+                                            position: relative;
+                                        }
+                                        
+                                        .items-container>div:hover {
+                                            opacity: 0.98;
+                                            transform: scale(0.98);
+                                            transition: 0.58;
+                                        }
+                                        
+                                        .backgroung-image:hover {
+                                            transition: 1s;
+                                        }
+                                        
+                                        .backgroung-image {
+                                            height: 350px;
+                                            width: 100%;
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                        }
+                                        
+                                        .s-content {
+                                            position: relative;
+                                        }
+                                        
+                                        .info-cours {
+                                            height: 350px;
+                                            width: 100%;
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                        }
+                                        
+                                        .text {
+                                            position: absolute;
+                                            justify-content: center;
+                                            text-align: center;
+                                            display: flex;
+                                            color: black;
+                                            flex-direction: column;
+                                            align-items: center;
+                                        }
+                                        
+                                        .text-logo {
+                                            position: absolute;
+                                            display: flex;
+                                            top: 0;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100%;
+                                            text-align: center;
+                                            padding-left: 100px;
+                                            padding-right: 100px;
+                                        }
+                                        
+                                        .logo img {
+                                            width: 250%;
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        .text-logo .text {
+                                            transition: 1s;
+                                            font-weight: 600;
+                                            color: transparent;
+                                        }
+                                        
+                                        .text-logo:hover .text {
+                                            font-weight: 600;
+                                            color: brown;
+                                        }
+                                        
+                                        .dark {
+                                            transition: 1s;
+                                            filter: brightness(10%);
+                                        }
+                                        /*medioa queries*/
+                                        
+                                        @media (max-width:600px) {
+                                            .backgroung-image {
+                                                height: 170px;
+                                                width: 105%;
+                                                background-size: cover;
+                                                background-repeat: no-repeat;
+                                                background-position: center;
+                                            }
+                                            .items-container {
+                                                margin-top: 10px;
+                                                display: flex;
+                                                flex-direction: column;
+                                                grid-gap: 10px;
+                                            }
+                                        }
+                                        /*login pages*/
+                                        /*Table*/
+                                        
+                                        table {
+                                            border-collapse: collapse;
+                                            color: blue;
+                                            width: 100%;
+                                            text-align: center;
+                                            font-family: monospace;
+                                            font-size: 10px;
+                                            margin-top: 30px;
+                                            border-bottom: collapse;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .files_table {
+                                            display: contents;
+                                        }
+                                        
+                                        .content {
+                                            display: grid;
+                                            margin-top: 20px;
+                                            grid-template-columns: 30% 70%;
+                                            grid-column-gap: 10px;
+                                            grid-auto-rows: minmax(100px, auto);
+                                            margin-left: 20px;
+                                            background-size: auto;
+                                            box-shadow: 5px 5px gray;
+                                            background-image: url(classroom.jpg);
+                                        }
+                                        
+                                        #student_grade {
+                                            border: 2px solid black;
+                                            border-radius: 15px 25px;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        th,
+                                        td {
+                                            text-align: center;
+                                            padding: 8px;
+                                        }
+                                        
+                                        tr:nth-child(even) {
+                                            background-color: pink;
+                                        }
+                                        
+                                        .content>div {
+                                            padding: 10px;
+                                        }
+                                        
+                                        .content>div:nth-child(odd) {
+                                            background: pink;
+                                        }
+                                        
+                                        .Lesson {
+                                            display: grid;
+                                            grid-template-columns: repeat(3, 1fr);
+                                            grid-column-gap: 10px;
+                                            justify-items: center;
+                                            grid-row-gap: 30px;
+                                        }
+                                        
+                                        .Lesson-container {
+                                            display: grid;
+                                            grid-auto-rows: minmax(100px, auto);
+                                            grid-template-rows: 30% 70%;
+                                            border: 1px black solid;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .Lesson-container>div:nth-child(even) {
+                                            background-color: pink;
+                                            border: 1px solid black;
+                                        }
+                                        
+                                        .content_choix {
+                                            position: relative;
+                                            background-image: url(student-space.png);
+                                            justify-items: center;
+                                        }
+                                        
+                                        .Form #box1 {
+                                            justify-content: center;
+                                        }
+                                        
+                                        .classroom {
+                                            display: grid;
+                                            grid-template-columns: repeat(4, 1fr);
+                                            justify-items: center;
+                                            column-gap: 20px;
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%)
+                                        }
+                                        
+                                        .classroom :hover {
+                                            transform: scale(1.02)
+                                        }
+                                        
+                                        #teachers {
+                                            /*background-image: url(Teachers2.jpg);*/
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-color: grey;
+                                        }

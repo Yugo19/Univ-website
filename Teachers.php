@@ -7,8 +7,41 @@
     <link rel="stylesheet" href="styles.css">
     <title>Teachers</title>
 </head>
-<body>
+<body id ="teachers">
     <div class="classroom">
+        <a href="">
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        </a>
+
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
+        <div class="IRT2">
+            <img src="online.ico" alt="">
+        </div>
         <div class="IRT2">
             <img src="online.ico" alt="">
         </div>
